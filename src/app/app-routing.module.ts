@@ -14,7 +14,7 @@ import { NewprojectComponent } from "./newproject/newproject.component";
 
 const routes: Routes = [
   {
-    path:'index',component: DefaultComponent,
+    path:'',component: DefaultComponent,
     children:[
       {path:'',component: DashboardComponent},
       {path:'newproject',component:NewprojectComponent},
