@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NotifierModule, NotifierOptions } from "angular-notifier";
 import { HttpClientModule } from "@angular/common/http";
+import { NewprojectComponent } from './newproject/newproject.component';
 
 
 const notifierCustomOptions: NotifierOptions = {
@@ -51,7 +52,8 @@ const notifierCustomOptions: NotifierOptions = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NewprojectComponent
     
   ],
   imports: [

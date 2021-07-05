@@ -1,0 +1,23 @@
+<div class="container">
+<H1>{{PageTitle}}</H1>
+  <div *ngFor="let obj of lbObj">
+    <div class="input-group col-sm-12" style="padding-left: 0px;padding-right: 0px;">
+	<div class="input-group-prepend col-sm-3" style="padding-left: 0px;padding-right: 0px;">
+	    <span class="input-group-text col-sm-12" id="">{{obj}} :</span>
+	</div>
+	<input type="text" [id]="obj" [name]="obj" class="form-control">
+    </div>	
+  </div>
+<br>
+<div class="row">
+  <div *ngFor="let item of template" class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{item}}</h5>
+        <p class="card-text">This will give you a template to start off your {{item}} coding swiftly.</p>
+        <a href="#" class="btn btn-primary">Create</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
